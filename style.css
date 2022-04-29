@@ -1,3 +1,41 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.header,
+.top {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 175px;
+}
+
+.header-right {
+    display: flex;
+    gap: 1em;
+}
+
+.top {
+    gap: 5em;
+}
+
+.top-big-text {
+    font-size: 46px;
+    font-weight: 900;
+}
+.top-small-text {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.header-left {
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+}
